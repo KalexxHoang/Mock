@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyQuizGame</string>
+
+    <!--Login-->
+    <string name="quiz_game">Quiz Game</string>
+
+    <!--Login-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="continue_with">Continue with Google</string>
+    <string name="sign_up">Don\'t you have an account yet? <u><i>Sign up</i></u></string>
+    <string name="forgot"><u>I forgot my password</u></string>
+
+    <!--Sign Up-->
+    <string name="signup">Sign up</string>
+
+    <!--Home-->
+    <string name="start">Start Quiz</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!--Web client id-->
+    <string name="default_web_client_id">977987498965-n5h72htac9416m8hn44hrf77hmv33a0h.apps.googleusercontent.com</string>
+</resources>
