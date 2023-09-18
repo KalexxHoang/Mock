@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@color/background"
-    tools:context=".QuizActivity">
+    tools:context=".Controller.QuizActivity">
 
     <ProgressBar
         android:id="@+id/progress"
@@ -35,7 +35,7 @@
         android:layout_height="match_parent"
         android:background="@color/background"
         android:visibility="gone"
-        tools:context=".CreateDataAcitvity">
+        tools:context=".Controller.CreateDataAcitvity">
 
         <LinearLayout
             android:id="@+id/state_layout"

@@ -1,4 +1,4 @@
-package com.example.finalmock
+package com.example.finalmock.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

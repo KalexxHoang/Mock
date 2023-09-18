@@ -1,11 +1,10 @@
-package com.example.finalmock
+package com.example.finalmock.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.finalmock.databinding.ActivityHomeBinding
-import com.google.firebase.database.DatabaseReference
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding

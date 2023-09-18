@@ -1,4 +1,4 @@
-package com.example.finalmock
+package com.example.finalmock.Controller
 
 import android.app.Activity
 import android.content.Intent
@@ -13,6 +13,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.finalmock.Model.User
+import com.example.finalmock.R
 import com.example.finalmock.databinding.ActivityLoginBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount

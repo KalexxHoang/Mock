@@ -1,4 +1,4 @@
-package com.example.finalmock
+package com.example.finalmock.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.finalmock.Model.Question
+import com.example.finalmock.R
 import com.example.finalmock.databinding.ActivityQuizBinding
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

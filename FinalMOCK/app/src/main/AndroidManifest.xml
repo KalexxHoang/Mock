@@ -15,27 +15,27 @@
         android:theme="@style/Theme.FinalMOCK"
         tools:targetApi="31">
         <activity
-            android:name=".ResetActivity"
+            android:name=".Controller.ResetActivity"
             android:exported="false" />
 
         <activity
-            android:name=".CongraAvtivity"
+            android:name=".Controller.CongraAvtivity"
             android:exported="false" />
 
         <activity
-            android:name=".CreateDataAcitvity"
+            android:name=".Controller.CreateDataAcitvity"
             android:exported="false"/>
 
         <activity
-            android:name=".QuizActivity"
+            android:name=".Controller.QuizActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".HomeActivity"
+            android:name=".Controller.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".Controller.SplashActivity"
             android:exported="true">
 
             <intent-filter>
@@ -46,11 +46,11 @@
         </activity>
 
         <activity
-            android:name=".SignUpActivity"
+            android:name=".Controller.SignUpActivity"
             android:exported="false"/>
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".Controller.LoginActivity"
             android:exported="false">
         </activity>
     </application>
