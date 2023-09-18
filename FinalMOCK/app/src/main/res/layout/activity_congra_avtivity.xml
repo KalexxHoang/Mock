@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".CongraAvtivity">
+
+    <ImageView
+        android:id="@+id/img_congra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/congratulation"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/correct_ans"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_congra"
+        android:layout_marginTop="20dp"
+
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/wrong_ans"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/correct_ans"
+        android:layout_marginTop="40dp"
+
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrong_ans"
+        android:layout_marginTop="105dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_signin"
+            android:text="@string/play_again"
+            android:textColor="@color/background"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_signin"
+            android:text="@string/exit"
+            android:textColor="@color/background"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

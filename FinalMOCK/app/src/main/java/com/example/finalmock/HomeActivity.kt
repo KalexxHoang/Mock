@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.finalmock.databinding.ActivityHomeBinding
+import com.google.firebase.database.DatabaseReference
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -15,10 +16,25 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnSignOut.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-            Toast.makeText(this, "Sign out is successful", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Welcome to Quiz Game", Toast.LENGTH_SHORT).show()
+
+        binding.btnStart.setOnClickListener {
+            clickStart()
         }
+
+        binding.btnSignOut.setOnClickListener {
+            clickSignOut()
+        }
+    }
+
+    private fun clickStart() {
+        val intent = Intent(this, QuizActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun clickSignOut() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        Toast.makeText(this, "Sign out is successful", Toast.LENGTH_LONG).show()
     }
 }

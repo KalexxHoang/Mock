@@ -15,27 +15,44 @@
         android:theme="@style/Theme.FinalMOCK"
         tools:targetApi="31">
         <activity
+            android:name=".ResetActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CongraAvtivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CreateDataAcitvity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".SignUpActivity"
-            android:exported="false"
-            android:theme="@style/HaveActionBar" />
+            android:exported="false"/>
+
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

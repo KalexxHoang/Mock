@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!--Login colors-->
     <color name="background">#E65100</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
 </resources>

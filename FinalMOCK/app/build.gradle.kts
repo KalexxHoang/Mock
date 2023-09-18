@@ -37,7 +37,6 @@ android {
     buildFeatures {
         viewBinding = true
     }
-    buildToolsVersion = "33.0.1"
 }
 
 dependencies {
@@ -47,8 +46,13 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
+    // Sign in with GG
     implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+    // Database
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-database-ktx")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
